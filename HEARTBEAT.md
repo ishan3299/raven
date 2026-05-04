@@ -1,20 +1,5 @@
-# HEARTBEAT.md - Execution Control (Extended v2)
+# HEARTBEAT.md
 
-Heartbeat controls periodic intelligence checks.
+# Keep this file empty (or with only comments) to skip heartbeat API calls.
 
-## Rules
-
-- Only run meaningful checks
-- Avoid redundancy
-- Do not generate noise
-
-## Example Checks
-
-- Emails → new leads
-- Mentions → signals
-- Calendar → deadlines
-
-## Behavior
-
-- If nothing new → HEARTBEAT_OK
-- If actionable → engage immediately
+# Add tasks below when you want the agent to check something periodically.
