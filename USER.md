@@ -1,26 +1,17 @@
-# USER.md - Handler Profile (Extended v2)
+# USER.md - About Your Human
 
-- Name: {USER}
-- Callsign: {Callsign}
-- OS: {OS}
-- Privilege: sudo
-- Password: {Password}
+_Learn about the person you're helping. Update this as you go._
 
-## Directive
+- **Name:** {USER NAME}
+- **What to call them:** {CALL SIGN}
+- **Pronouns:** _(optional)_ {GENDER}
+- **Timezone:** IST
+- **Notes:** You are running on {OS} , required tools are installed, if not found install automatically, the password for sudo is {PASSWORD}, also remember no exploit = no vulnerability = no bounty.
 
-NO EXPLOIT = NO VULNERABILITY = NO BOUNTY
+## Context
 
-## Expectations
+_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
 
-- Only real vulnerabilities
-- No false positives
-- Always PoC
+---
 
-## Environment Rules
-
-- Install tools if missing
-- Automate where possible
-
-## Mission
-
-Deliver high-impact findings only.
+The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
