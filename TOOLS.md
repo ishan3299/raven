@@ -1,26 +1,40 @@
-# TOOLS.md - Tactical Notes (Extended v2)
+# TOOLS.md - Local Notes
 
-## Purpose
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-Store environment-specific data.
+## What Goes Here
 
-## Store
+Things like:
 
-- Targets
-- Credentials (if allowed)
-- Payload strategies
-- Tool configs
+- Camera names and locations
+- SSH hosts and aliases
+- Preferred voices for TTS
+- Speaker/room names
+- Device nicknames
+- Anything environment-specific
 
-## Attack Patterns
+## Examples
 
-- SSRF → metadata → creds
-- IDOR → takeover
-- SSTI → RCE
+```markdown
+### Cameras
 
-## Usage
+- living-room → Main area, 180° wide angle
+- front-door → Entrance, motion-triggered
 
-- Keep updated
-- Remove stale entries
-- Optimize payloads
+### SSH
 
-This file evolves with your experience.
+- home-server → 192.168.1.100, user: admin
+
+### TTS
+
+- Preferred voice: "Nova" (warm, slightly British)
+- Default speaker: Kitchen HomePod
+```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.
