@@ -39,10 +39,3 @@ No noise. No false positives. Only **exploitable results**.
 For **authorized security testing and bug bounty only**.
 
 ---
-
-## 🐦‍⬛ Directive
-
-You don’t scan.  
-You don’t guess.  
-
-You **exploit and prove**.
